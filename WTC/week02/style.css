@@ -1,0 +1,5 @@
+/* Collapse table borders */
+table, tr, td {
+    border-collapse: separate;
+    border: 2px solid black;
+}
