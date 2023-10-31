@@ -1,4 +1,52 @@
-
+body {
+    margin: 2;
+    /* background-color: rgb(207, 206, 204); */
+  }
+  
+  ul.topnav {
+      
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #020005;
+  }
+  
+  ul.topnav li {
+    float: left;
+  }
+  
+  ul.topnav li a {
+    display: block;
+    color: rgb(11, 10, 10);
+      color: azure;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  ul.topnav li a:hover:not(.active) {
+    background-color: #e112e1;
+    color: azure;
+  }
+  
+  ul.topnav li a.active {
+    background-color: #e112e1;
+    color: azure;
+  }
+  
+  ul.topnav li.right {
+    float: right;
+  }
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right,
+    ul.topnav li {
+      float: none;
+    }
+  }
+  
     .flex-container {
         display: flex;
         flex-wrap: wrap;
@@ -7,8 +55,11 @@
     
     .flex-item {
         margin: 10px;
-        width: 200px;
-        height: 200px;
+        width: 210px;
+        height: 210px;
+    }
+    h1{
+        margin-left: 6rem;
     }
     
     .flex-item img {
@@ -23,3 +74,39 @@
         height: 100%;
         object-fit: cover;
     }
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+   
+}
+.box {
+    width: 200px;
+    height: 200px;
+}
+.header {
+    height: 3rem;
+    width: 70rem;
+    background-color: rgb(35, 78, 115);
+}
+.main {
+    height: 20rem;
+    width: 50rem;
+    background-color: rgb(35, 115, 52);
+    justify-self: last start;
+}
+.sidebar {
+    height: 20rem;
+    width: 20rem;
+    background-color: rgb(67, 35, 115);
+}
+.footer {
+    height: 3rem;
+    width: 70rem;
+    background-color: rgb(29, 14, 14);
+}
+
+    
