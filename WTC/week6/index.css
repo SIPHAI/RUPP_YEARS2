@@ -1,6 +1,5 @@
 body {
     margin: 2;
-    /* background-color: rgb(207, 206, 204); */
   }
   
   ul.topnav {
@@ -46,6 +45,7 @@ body {
       float: none;
     }
   }
+
   
     .flex-container {
         display: flex;
@@ -55,11 +55,11 @@ body {
     
     .flex-item {
         margin: 10px;
-        width: 210px;
-        height: 210px;
+        width: 250px;
+        height: 250px;
     }
     h1{
-        margin-left: 6rem;
+        margin-left: 7rem;
     }
     
     .flex-item img {
@@ -91,22 +91,41 @@ body {
     height: 3rem;
     width: 70rem;
     background-color: rgb(35, 78, 115);
+    text-align: center;
+    color: #f0eff0;
+    font-size: large;
 }
 .main {
     height: 20rem;
     width: 50rem;
     background-color: rgb(35, 115, 52);
     justify-self: last start;
+    text-align: center;
+    color: #f0eff0;
+    font-size: large;
 }
 .sidebar {
     height: 20rem;
     width: 20rem;
     background-color: rgb(67, 35, 115);
+    text-align: center;
+    color: #f0eff0;
+    font-size: large;
+}
+@media screen and (max-width:900px){
+  .sidebar{
+    height: 200px;
+    width: 1000px;
+  }
 }
 .footer {
     height: 3rem;
     width: 70rem;
     background-color: rgb(29, 14, 14);
+    text-align: center;
+    justify-content: center;
+    color: #f0eff0;
+    font-size: large;
 }
 
     
