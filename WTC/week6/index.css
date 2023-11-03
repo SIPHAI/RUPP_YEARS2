@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@900&family=Work+Sans&display=swap');
+*{
+  font-family: 'Open Sans', sans-serif;
+}
 body {
     margin: 2;
   }
@@ -129,16 +133,44 @@ body {
     font-size: large;
 }
 
+
 .row {
+  margin-top: 3rem;
+  padding: 0;
   color: #f0eff0;
+  background-color: #071110;
   display: flex;
-  margin: 3rem;
-  background-color: #07302b;
 }
 
-.portfolio, .about, .contact {
-  
-  text-align: left;
-  margin: 1.2rem;
+.col-3 {
+  /* flex: 0 0 3%; */
+  margin-top: 3rem;
+  text-align: center;
+  justify-content: center;
+  margin-right: 4rem
+}
+.col-3:hover {
+  color: rgb(87, 4, 229);
+  cursor: pointer;
+}
+
+.start {
+  margin-bottom: 35px;
+  flex: 15 0 0%;
+  font-size: 30px;
+  ;
+}
+.portfolio,
+.about,
+.contact{
   font-family: Georgia, 'Times New Roman', Times, serif;
+  /* /* justify-content: flex-end; */
+  flex: 0 0 7%; 
+}
+
+
+.image{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
